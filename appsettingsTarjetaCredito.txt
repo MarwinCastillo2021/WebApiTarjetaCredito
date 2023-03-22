@@ -1,0 +1,32 @@
+appsettings.json TarjetaCredito Conexion a BD Local
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+  "TarjetaCreditoConnectionString" : 
+  "server= MOCC2021\\SQLEXPRESS;database=TarjetaCreditoDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
+  }
+}
+
+appsettings.json TarjetaCredito conexion Azure SQL Db
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+  "CadenaConexionDbProyectosmc" : 
+  "Server=tcp:azuresqlserver-proyectosmc.database.windows.net,1433;Initial Catalog=azureDbProyectosmc;Persist Security Info=False;User ID=AdministradorProyectos;Password=M@rw1n$_; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
+
